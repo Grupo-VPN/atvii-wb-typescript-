@@ -45,10 +45,6 @@ function EditarCliente() {
                             <label htmlFor="Telefone">Telefone:</label>
                             <input type="text" defaultValue="12 3962-1949"/>
                         </div>
-                        <div className="field">
-                            <label htmlFor="Email">Email:</label>
-                            <input type="email" defaultValue="@gbs"/>
-                        </div>
                         <Button className="submit" variant="outline-dark" type='submit'>Editar</Button>{' '}
                     </form>
                 </div>

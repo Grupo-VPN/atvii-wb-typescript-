@@ -46,10 +46,6 @@ function CadastrarClientes() {
                             <label htmlFor="Telefone">Telefone:</label>
                             <input type="text"/>
                         </div>
-                        <div className="field">
-                            <label htmlFor="Email">Email:</label>
-                            <input type="email"/>
-                        </div>
                         <Button className="submit" variant="outline-dark" type='submit'>Cadastrar</Button>{' '}
                     </form>
                 </div>

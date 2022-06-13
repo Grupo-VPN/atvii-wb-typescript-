@@ -19,7 +19,7 @@ function Clientes() {
                             <th>Id</th>
                             <th>Nome</th>
                             <th>Nome Social</th>
-                            <th>Email</th>
+                            <th>Genero</th>
                             <th>Ações</th>
                             </tr>
                         </thead>
@@ -28,33 +28,39 @@ function Clientes() {
                                 <td>1</td>
                                 <td>Gabriela</td>
                                 <td>Gabriela furacão</td>
-                                <td>@gbs</td>
+                                <td>Mulher</td>                                
                                 <td>
-                                    <Button variant="outline-success" href='/editar_servico/1'>Editar</Button>{' '}
-                                    <Button variant="outline-info" href='/clientes/1'>Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
-                                </td>
+                                    <div className='Column'>
+                                        <Button variant="outline-success" href='/editar_servico/1'>Editar</Button>{' '}
+                                        <Button variant="outline-info" href='/clientes/1'>Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
+                                </td>                                                          
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>Vinicias</td>
                                 <td>Vinicias britadeira</td>
-                                <td>@va</td>
+                                <td>Mulher</td>
                                 <td>
-                                    <Button variant="outline-success">Editar</Button>{' '}
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
+                                    <div className='Column'>
+                                        <Button variant="outline-success">Editar</Button>{' '}
+                                        <Button variant="outline-info">Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>Kelvina</td>
                                 <td>Kelvina elefantina</td>
-                                <td>@kfc</td>
+                                <td>Women</td>
                                 <td>
-                                    <Button variant="outline-success">Editar</Button>{' '}
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
+                                    <div className='Column'>
+                                        <Button variant="outline-success">Editar</Button>{' '}
+                                        <Button variant="outline-info">Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

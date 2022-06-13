@@ -3,6 +3,17 @@ main h1{
 }
 
 .tables{
-    margin-top: 25px;
-    width: 50%;
+    margin: 25px 10px;
+    
 }
+
+
+ @media (max-width: 632px) {
+    .Column{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+
+}; 

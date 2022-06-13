@@ -35,9 +35,6 @@ function VisualizarCliente() {
                         <Card.Text>
                             Telefone: 12 3962-1949
                         </Card.Text>
-                        <Card.Text>
-                            E-mail: @gbs
-                        </Card.Text>
                     </Card.Body>
                 </Card>
             </main>
