@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-pascal-case */
-import * as React from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 

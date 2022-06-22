@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-pascal-case */
-import * as React from 'react';
 import Navbar_ from '../../component/NavBar';
 import './styles.css'
 

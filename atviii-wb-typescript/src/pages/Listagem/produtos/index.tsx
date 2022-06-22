@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import * as React from 'react';
+import { PencilSimple, Eraser, Eye } from 'phosphor-react';
 import { Button, Table } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 
@@ -27,9 +27,16 @@ function Produtos() {
                                 <td>Shampoo ant-calvice</td>
                                 <td>R$15</td>
                                 <td>
-                                    <Button variant="outline-success">Editar</Button>{' '}
-                                    <Button variant="outline-info" href='/produtos/1'>Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
+                                    <div className="icons">
+                                        <a href="/editar_produto/1"><PencilSimple size={35} color="#198754"/></a>
+                                        <a href="/produtos/1"><Eye size={35} color="#0DCAF0"/></a>
+                                        <a href="##"><Eraser size={35} color="#DC3545"/></a>           
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-success" href='/editar_produto/1'>Editar</Button>{' '}
+                                        <Button variant="outline-info" href='/produtos/1'>Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
@@ -37,9 +44,16 @@ function Produtos() {
                                 <td>Shampoo ant-bacterias</td>
                                 <td>R$20</td>
                                 <td>
-                                    <Button variant="outline-success">Editar</Button>{' '}
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><PencilSimple size={35} color="#198754"/></a>
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>
+                                        <a href="##"><Eraser size={35} color="#DC3545"/></a>           
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-success" href='##'>Editar</Button>{' '}
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
@@ -47,9 +61,16 @@ function Produtos() {
                                 <td>Shampoo CR7 Clear-Man</td>
                                 <td>R$1500</td>
                                 <td>
-                                    <Button variant="outline-success">Editar</Button>{' '}
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
-                                    <Button variant="outline-danger">Remover</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><PencilSimple size={35} color="#198754"/></a>
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>
+                                        <a href="##"><Eraser size={35} color="#DC3545"/></a>           
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-success" href='##'>Editar</Button>{' '}
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                        <Button variant="outline-danger">Remover</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

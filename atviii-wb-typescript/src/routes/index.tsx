@@ -15,6 +15,8 @@ import VisualizarCliente from '../pages/Visualizar/clientes';
 import VisualizarProduto from '../pages/Visualizar/produtos';
 import VisualizarServico from '../pages/Visualizar/servicos';
 import EditarCliente from '../pages/Editar/clientes';
+import EditarProduto from '../pages/Editar/produtos';
+import EditarServico from '../pages/Editar/servicos';
 
 function AppRoutes() {
     return (
@@ -32,8 +34,8 @@ function AppRoutes() {
                 <Route path='/produtos/1' element={<VisualizarProduto/>}/>
                 <Route path='/servicos/1' element={<VisualizarServico/>}/>
                 <Route path='/editar_cliente/1' element={<EditarCliente/>}/>
-                <Route path='/editar_produto/1' element={<EditarCliente/>}/>
-                <Route path='/editar_servico/1' element={<EditarCliente/>}/>
+                <Route path='/editar_produto/1' element={<EditarProduto/>}/>
+                <Route path='/editar_servico/1' element={<EditarServico/>}/>
             </Routes>
         </Router>
     );

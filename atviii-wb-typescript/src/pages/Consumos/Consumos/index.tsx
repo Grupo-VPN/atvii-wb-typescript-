@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import * as React from 'react';
+import { Eye } from 'phosphor-react';
 import { Button, Table } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 
@@ -23,31 +23,56 @@ function Consumos() {
                             <tr>
                                 <td>Listagem 10 clientes que mais consumiram em qtd</td>
                                 <td>
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>      
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Listagem todos clientes por gênero</td>
                                 <td>
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>      
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Listagem geral de produtos e serviços mais consumidos</td>
                                 <td>
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>      
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Listagem 10 clientes que menos consumiram produtos ou serviços</td>
                                 <td>
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>      
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>Listagem 5 clientes que mais consumiram em valor</td>
                                 <td>
-                                    <Button variant="outline-info">Visualizar</Button>{' '}
+                                    <div className="icons">
+                                        <a href="##"><Eye size={35} color="#0DCAF0"/></a>      
+                                    </div>
+                                    <div className="Column">
+                                        <Button variant="outline-info" href='##'>Visualizar</Button>{' '}
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

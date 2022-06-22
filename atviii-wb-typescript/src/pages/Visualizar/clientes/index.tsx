@@ -1,4 +1,4 @@
-import * as React from 'react';
+/* eslint-disable react/jsx-pascal-case */
 import { Button, Card } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar';
 

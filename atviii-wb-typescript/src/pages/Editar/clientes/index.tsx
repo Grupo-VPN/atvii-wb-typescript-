@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-pascal-case */
-import * as React from 'react';
 import { Button } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar'
 
@@ -11,6 +10,7 @@ function EditarCliente() {
             </header>
             <main>
                 <h1>Editar Cliente:"Gabriela"</h1>
+                <Button  variant="outline-dark" href='/clientes'>Voltar</Button>
                 <div className="forms">
                     <form>
                         <div className="field">

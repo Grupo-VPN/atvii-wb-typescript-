@@ -1,4 +1,4 @@
-import * as React from 'react';
+/* eslint-disable react/jsx-pascal-case */
 import { Button, Card } from 'react-bootstrap';
 import NavBar_ from '../../../component/NavBar';
 
@@ -10,7 +10,7 @@ function VisualizarServico() {
             </header>
             <main>
                 <h1>Visualizar Serviço: "Cortar unhas"</h1>
-                <Button variant="outline-dark" href='/clientes'>Voltar</Button>
+                <Button variant="outline-dark" href='/servicos'>Voltar</Button>
                 <Card
                 bg="white"
                 text="dark"
