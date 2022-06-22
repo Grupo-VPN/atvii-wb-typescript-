@@ -9,7 +9,7 @@ function VisualizarCliente() {
                 <NavBar_/>
             </header>
             <main>
-                <h1>Visualizar cliente: "Gabriela"</h1>
+            <h1>Visualizar cliente: "Gabriela"</h1>
                 <Button  variant="outline-dark" href='/clientes'>Voltar</Button>
                 <Card
                 bg="white"
@@ -19,9 +19,9 @@ function VisualizarCliente() {
                 >
                     <Card.Header>ID: 1</Card.Header>
                     <Card.Body>
-                        <Card.Title>Gabriela Bicha</Card.Title>
+                        <Card.Title>Gabriela Bicho</Card.Title>
                         <Card.Text>
-                            Nome Social: Gabriela furacão
+                            Nome Social: Gabriela
                         </Card.Text>
                         <Card.Text>
                             Gênero: Feminino

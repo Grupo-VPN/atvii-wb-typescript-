@@ -13,7 +13,7 @@ function Clientes() {
             <main>
                 <h1>Clientes</h1>
                 <div className="tables">
-                    <Table striped bordered hover variant="light">
+                <Table striped bordered hover variant="light">
                         <thead>
                             <tr>
                             <th>Id</th>
@@ -26,8 +26,8 @@ function Clientes() {
                         <tbody>
                             <tr>
                                 <td>1</td>
+                                <td>Gabriela Bicho</td>
                                 <td>Gabriela</td>
-                                <td>Gabriela furacão</td>
                                 <td>Mulher</td>                                
                                 <td>
                                     <div className="icons">
@@ -45,8 +45,8 @@ function Clientes() {
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Vinicias</td>
-                                <td>Vinicias britadeira</td>
+                                <td>Joana Felix</td>
+                                <td>Joana</td>
                                 <td>Mulher</td>
                                 <td>
                                     <div className="icons">
@@ -63,9 +63,9 @@ function Clientes() {
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Kelvina</td>
-                                <td>Kelvina elefantina</td>
-                                <td>Women</td>
+                                <td>Carla Peres</td>
+                                <td>Carla</td>
+                                <td>Mulher</td>
                                 <td>
                                     <div className="icons">
                                         <a href="/editar_servico/1"><PencilSimple size={35} color="#198754"/></a>

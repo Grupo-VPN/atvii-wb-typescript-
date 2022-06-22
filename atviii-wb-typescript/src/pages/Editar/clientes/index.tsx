@@ -19,11 +19,11 @@ function EditarCliente() {
                         </div>
                         <div className="field">
                             <label htmlFor="Sobrenome">Sobrenome:</label>
-                            <input type="text" defaultValue="Bicha"/>
+                            <input type="text" defaultValue="Bicho"/>
                         </div>
                         <div className="field">
                             <label htmlFor="Social">Nome social:</label>
-                            <input type="text" defaultValue="Gabriela furacão"/>
+                            <input type="text" defaultValue="Gabriela"/>
                         </div>
                         <div className="field">
                             <label htmlFor="Genero">Gênero:</label>
